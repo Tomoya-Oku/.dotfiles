@@ -1,0 +1,15 @@
+[http]
+	sslVerify = false
+[user]
+	name = oku
+	email = 15170071+Tomoya-Oku@users.noreply.github.com
+[alias]
+	st = status
+	co = checkout
+	br = branch
+	cm = commit
+	df = diff
+	lg = log --oneline --graph --all --decorate
+	graph = log --graph --date=short --pretty=\"format:%C(yellow)%h %C(cyan)%ad %C(green)%an%Creset%x09%s %C(red)%d%Creset\"
+[fetch]
+	prune = true
